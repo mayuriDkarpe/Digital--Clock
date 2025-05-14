@@ -1,0 +1,24 @@
+body {
+    background-color: #111;
+    color: #990af2;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .clock {
+    font-size: 4rem;
+    padding: 20px 40px;
+    border: 3px solid #4b095d;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #9843ed88;
+  }
+
+  .ampm {
+    font-size: 1.5rem;
+    margin-left: 10px;
+    vertical-align: super;
+  }
